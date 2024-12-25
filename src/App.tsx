@@ -12,9 +12,11 @@ function App() {
       <NavigationBar />
       <Hero />
       <Footer />
-      <PaymentForm />
-      <SignupForm />
-      <LoginForm />
+      <div className="container flex-wrap">
+        <PaymentForm />
+        <SignupForm />
+        <LoginForm />
+      </div>
     </>
   );
 }

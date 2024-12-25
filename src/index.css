@@ -73,6 +73,12 @@ a {
   flex-direction: column;
 }
 
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
 .btn {
   padding: 1em 1.4em;
   border-radius: 50px;
